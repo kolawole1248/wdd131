@@ -1,3 +1,4 @@
+/* Ensure CSS file is optimized and valid */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -54,20 +55,10 @@ footer {
     color: #fff;
 }
 
-/* Resize and style the logo image */
-.logo {
-    width: 100px;
-    /* Adjust width */
-    height: auto;
-    /* Maintain aspect ratio */
-    border-radius: 50%;
-    /* Make it circular (optional) */
-    display: block;
-    /* Center if needed */
-    margin: 0 auto;
-    /* Center horizontally */
-    border: 2px solid #333;
-    /* Add a border (optional) */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Add subtle shadow */
+/* Add responsiveness */
+@media (max-width: 768px) {
+    main {
+        margin: 1rem;
+        grid-template-columns: 1fr;
+    }
 }
