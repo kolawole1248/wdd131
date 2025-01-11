@@ -4,82 +4,99 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-  }
-  
-  h1, h2 {
+}
+
+h2 {
     color: #2c3e50;
-  }
-  
-  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h1 {
+    color: white;
+}
+
+header {
     background-color: #34495e;
     color: white;
     padding: 1rem;
     text-align: center;
-  }
-  
-  header h1 span {
+}
+
+header h1 span {
     color: #f1c40f;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     justify-content: center;
     gap: 1rem;
-  }
-  
-  nav a {
+}
+
+nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 1rem;
     border-radius: 5px;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     background-color: #2c3e50;
-  }
-  
-  /* Main Layout */
-  main {
+}
+
+/* Main Layout */
+main {
     max-width: 1200px;
     margin: 2rem auto;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two sections on the left, one on the right */
+    grid-template-columns: 1fr 1fr;
+    /* Two sections on the left, one on the right */
     gap: 2rem;
     padding: 0 1rem;
-  }
-  
-  /* Cards styling */
-  .card {
+}
+
+/* Cards styling */
+.card {
     border: 1px solid #ddd;
     padding: 1rem;
     border-radius: 5px;
     background-color: #f9f9f9;
-  }
-  
-  /* Group About Me and Madagascar sections together */
-  .about, .location {
-    grid-column: 1 / 2; /* Assign these to the left column */
-  }
-  
-  .resources {
-    grid-column: 2 / 3; /* Assign this to the right column */
-  }
-  
-  .card img {
+}
+
+/* Group About Me and Madagascar sections together */
+.about,
+.location {
+    grid-column: 1 / 2;
+    /* Assign these to the left column */
+}
+
+.resources {
+    grid-column: 2 / 3;
+    /* Assign this to the right column */
+}
+
+.card img {
     max-width: 100%;
     border-radius: 5px;
-  }
-  
-  /* Footer */
-  footer {
+}
+
+/* Footer */
+footer {
     background-color: #34495e;
     color: white;
     text-align: center;
     padding: 1rem 0;
-  }
-  
-  footer p {
+}
+
+footer p {
     margin: 0.5rem;
+}
+.img {
+    width: 150px; /* Resize width */
+    height: auto; /* Maintain aspect ratio */
   }
   
