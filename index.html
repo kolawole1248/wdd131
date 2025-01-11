@@ -4,45 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="WDD 131 "
-        content="WDD 131 - Dynamic Web Fundamentals by Kolawole Uthman Abisola. Introduction to HTML, CSS, and JavaScript for dynamic websites.">
-    <meta name="Uthman" content="Kolawole Uthman Abisola">
-    <title>"WDD 131 - Dynamic Web Fundamentals - Kolawole Uthman"</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Rubia M. Francesco">
+    <meta name="author" content="Rubia M. Francesco">
+    <title>WDD 131 - Dynamic Web Fundamentals - Rubia M. Francesco</title>
     <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/getdates.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>WDD 131 - Dynamic Web Fundamentals - Kolawole Uthman</h1>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span>Rubia M. Francesco</span></h1>
         <nav>
-            <ul>
-                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
-                <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Favorite
-                        Scripture</a></li>
-                <li><a href="#">Final Project</a></li>
-            </ul>
+            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+            <a href="#">Final Project</a>
         </nav>
     </header>
+
     <main>
-        <section class="card">
+        <section class="card about">
             <h2>About Me</h2>
-            <img src="images/myimage.jpeg" alt="About me image" class="logo">
-            <p>Hello, I’m Kolawole Uthman Abisola, a student of dynamic web development. Here’s my journey...</p>
-            <a href="https://example.com" target="_blank">Read more</a>
+            <p>
+                My name is Rubia and I go by Ruby. I was born in South Africa and live with my family in Madagascar.
+                I am currently working as an administrative legal assistant at a law firm. My children are my world,
+                and I love spending time with them. I love to travel and I love to learn new things.
+            </p>
+            <img src="images/profile.jpg" alt="Rubia M. Francesco">
+
+            <h2>Toloria, Madagascar</h2>
+            <p>
+                Madagascar is the 4th largest island in the world and is located in the Indian Ocean. It is home to 5%
+                of the world's
+                plant and animal species, of which more than 80% are endemic to Madagascar. The island is best known for
+                its lemurs,
+                baobab trees, and vanilla.
+            </p>
+            <img src="images/madagascar-flag.jpg" alt="Official Flag of Madagascar">
         </section>
-        <section class="card">
-            <h2>Course Goals</h2>
-            <img src="images/goals.jpg" alt="Course goals image">
-            <p>Explore HTML, CSS, and JavaScript concepts to build dynamic websites.</p>
-            <a href="https://example.com" target="_blank">Explore goals</a>
+
+        <section class="card resources">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to">Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com">W3 Schools</a></li>
+                <li><a href="https://udemy.com">Udemy</a></li>
+                <li><a href="https://placeholder.com">Image Placeholder</a></li>
+            </ul>
         </section>
     </main>
+
     <footer>
-        <p>&copy; <span id="currentyear"></span> Kolawole Uthman Abisola, Nigeria</p>
+        <p>&copy; <span id="currentyear"></span> Rubia M. Francesco - Madagascar</p>
         <p id="lastModified"></p>
     </footer>
+
+    <script src="scripts/getdates.js" defer></script>
 </body>
 
 </html>
