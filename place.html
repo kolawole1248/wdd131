@@ -9,19 +9,23 @@
     <title>Place website</title>
     <link rel="stylesheet" href="styles/place.css">
     <script src="scripts/place.js" defer></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <h1>Nigeria</h1>
+        <h1>Place website</h1>
     </header>
     <main>
-        <img src="images/my.webp" alt="" width="100%">
+        <picture>
+            <img src="images/my.webp" alt="Hero Image" width="100%">
+            <source srcset="images/hero-image-small.webp" media="(max-width: 600px)">
+            <source srcset="images/hero-image-large.webp" media="(min-width: 601px)">
+        </picture>
         <section class="data">
-            <h2>Data</h2>
+            <h2>Data </h2>
             <ul>
                 <li>Area: 587,041 sq km</li>
                 <li>Population: 27,691,018</li>
@@ -34,7 +38,7 @@
             </ul>
         </section>
         <section class="weather">
-            <h2>Weather ⛅</h2>
+            <h2>Weather <img src="images/316270_cloud_sun_icon.svg" alt=""></h2>
             <ul>
                 <li>Temperature: 10°C</li>
                 <li>Conditions: Partly Cloudy</li>
