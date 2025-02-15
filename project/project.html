@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the best coffee at Coffea Corner. Explore our menu, brewing methods, and find coffee shops near you.">
     <title>Coffea Corner</title>
     <link rel="stylesheet" href="style/project.css">
     <link rel="stylesheet" href="style/projectlarge.css" media="(min-width: 768px)">
-    <script src="scripts/project.js" defer></script>
+    <script src="script/project.js" defer></script>
 </head>
 <body>
     <header>
@@ -21,7 +22,7 @@
                 <li><a href="#coffee-types">Coffee Types</a></li>
                 <li><a href="#brewing-methods">Brewing Methods</a></li>
                 <li><a href="#coffee-shops">Coffee Shops</a></li>
-                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -29,7 +30,7 @@
     <main>
         <!-- Hero Section -->
         <section id="home" class="hero">
-            <img src="image/6667473_3376542.jpg" alt="Coffee Hero Image" loading="lazy" >
+            <img src="image/6667473_3376542.jpg" alt="Coffee Hero Image" loading="lazy">
             <div class="hero-text">
                 <h2>Welcome to Coffea Corner</h2>
                 <p>Your Coffee Journey Starts Here</p>
@@ -41,22 +42,7 @@
         <section id="coffee-types" class="coffee-types">
             <h2>Discover Our Coffee Types</h2>
             <div class="grid">
-                <div class="card">
-                    <img src="image/images (2).jfif" alt="Espresso" loading="lazy">
-                    <h3>Espresso</h3>
-                </div>
-                <div class="card">
-                    <img src="image/images (3).jfif" alt="Latte" loading="lazy">
-                    <h3>Latte</h3>
-                </div>
-                <div class="card">
-                    <img src="image/360_F_194828703_vuNjz8Otb66VfI4rQyg9tBUPuGAugsUR.jpg" alt="Cappuccino" loading="lazy">
-                    <h3>Cappuccino</h3>
-                </div>
-                <div class="card">
-                    <img src="image/images (4).jfif" alt="Cold Brew" loading="lazy">
-                    <h3>Cold Brew</h3>
-                </div>
+                <!-- Coffee cards will be dynamically inserted here using JavaScript -->
             </div>
         </section>
 
@@ -87,8 +73,26 @@
             <h2>Find Coffee Shops Near You</h2>
             <div class="map-container">
                 <input type="text" placeholder="Enter your location">
-                <img src="image/istockphoto-1493681761-612x612.jpg" alt="Map Placeholder" loading="lazy" width="5%">
+                <img src="image/istockphoto-1493681761-612x612.jpg" alt="Map Placeholder" loading="lazy" width="10%">
             </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <p id="form-confirmation"></p>
         </section>
     </main>
 
@@ -100,7 +104,7 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#coffee-types">Coffee Types</a></li>
                     <li><a href="#brewing-methods">Brewing Methods</a></li>
-                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="contact-info">
