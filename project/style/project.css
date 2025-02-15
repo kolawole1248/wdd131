@@ -60,9 +60,9 @@ nav ul li a {
 
 .hero img {
     width: 100%;
-    height: auto;
+    height: 700px;
+    object-fit: cover; 
 }
-
 .hero-text {
     position: absolute;
     top: 50%;
